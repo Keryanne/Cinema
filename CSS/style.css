@@ -1,0 +1,311 @@
+/* Import des Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Indie+Flower&display=swap');
+
+
+/* css général*/
+
+*{
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Balsamiq Sans', arial,sans-serif;
+    background-color: #fff;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Style header */
+
+nav{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -100px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(121, 193, 235);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 20px 0px 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.right img{
+    width: 30px;
+    height: 30px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+nav li a:hover{
+    color: rgb(255, 253, 253);
+  }
+
+header{
+    background: url("../images/image-title.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 550px;
+    font-family: 'Balsamiq Sans', arial,sans-serif;
+    color: rgb(221, 219, 219);
+}
+
+.mon-titre{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mon-titre p, .mon-titre h1{
+    text-align: center;
+    color: #fafeff;
+}
+
+.mon-titre h1{
+    font-size: 4.5em;
+    line-height: 10px;
+    color: #fafeff;
+}
+  
+.mon-titre p{
+    font-size: 20px;
+}
+
+/* Style header */
+
+/* Style partie centrale */
+
+.titre{
+    font-family: 'Balsamiq Sans', arial,sans-serif;
+}
+
+.centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main{
+    width: 23%;
+    height: 80%;
+    background-color: #addeeb;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -200px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
+
+h4{
+    font-size: x-large;
+}
+
+.groupe-one{
+    padding: 5px 10px 5px;
+}
+
+.groupe-one img{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: -15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+aside{
+    clear: both;
+    width: 72%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.films:hover{
+    box-shadow: 8px 8px 12px #aaa;
+  }
+
+h5{
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+h6{
+    font-size: large;
+    margin-bottom: -5px;
+}
+
+.text p{
+    margin-bottom: 10%;
+}
+
+.les-films{
+    display: flex;
+    flex-direction: column;
+}
+
+.films{
+    background-color: #addeeb;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.films img{
+    max-width: 25%;
+    max-height: 100%;
+    border-radius: 30px 0 0 30px;
+}
+
+.films iframe{
+    border-radius: 0 30px 30px 0;
+}
+
+/* Style partie centrale */
+
+/* Style partie Newsletter */
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1ch;
+}
+
+.formulaire{
+    border-radius: 30px;
+    height: 200px;
+    width: 350px;
+    background-color: aqua;
+    display: block;
+    align-items: center;
+    position: relative;
+    bottom: -130px;
+    left: 37%;
+    text-align: center;
+  }
+  
+.form-one{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: -10px;
+}
+
+label{
+    display: flex;
+    font-size: 20px;
+}
+  
+input{
+    font-family: 'Balsamiq Sans', cursive;
+    height: 25px;
+    width: 225px;
+    margin-bottom: 10px;
+    background: none;
+    border:none;
+    border-bottom:solid 1px gray;
+    position: relative;
+    left: 50px;
+}
+
+.envoyer{
+    text-align: center;
+}
+
+.envoyer input{
+    background-color: #ffffff;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    position: relative;
+    bottom: -10px;
+    left: 100px;
+}
+
+.envoyer input:hover{
+    box-shadow: 8px 8px 12px #aaa;
+  }
+
+  /* Style partie Newsletter */
+
+  /* Style partie fin de page */
+
+footer{
+    height: 180px;
+    background-color: rgb(121, 193, 235);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* Style partie fin de page */
